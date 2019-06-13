@@ -142,6 +142,9 @@ module.exports = {
       src: '~/plugins/axios'
     },
     {
+      src: '~/plugins/table'
+    },
+    {
       src: '~/plugins/element'
     }
   ],
