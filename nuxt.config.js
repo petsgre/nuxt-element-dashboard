@@ -18,7 +18,14 @@ const config = {
   env: {
     mock: {
       '/deepexi-tenant': mockServer,
-      '/deepexi-permission': mockServer
+      '/deepexi-permission': mockServer,
+      '/api': {
+        target: 'http://yapi.demo.qunar.com/mock/71339',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': ''
+        }
+      }
     },
     dev: {
       '/deepexi-tenant': apiServer,
