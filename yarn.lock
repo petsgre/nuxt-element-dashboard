@@ -3744,10 +3744,10 @@ ejs@^2.6.1:
   resolved "https://registry.npm.taobao.org/ejs/download/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
   integrity sha1-SY7A1JVlWrxvI81hho2SZGQHGqA=
 
-el-data-table@^1.1.1:
-  version "1.4.0"
-  resolved "https://registry.npm.taobao.org/el-data-table/download/el-data-table-1.4.0.tgz#8a285434cd818f79f3060adb05921e3cc5e5611a"
-  integrity sha1-iihUNM2Bj3nzBgrbBZIePMXlYRo=
+el-data-table@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/el-data-table/-/el-data-table-1.4.2.tgz#7762e655394baeeb2e5c272bd2db7b2dc11cf397"
+  integrity sha512-I5o7iOlgken1hZC5315GA757e68FZgqaZr8y/SlTifzG37ZTRhWp0hL03v/8xE7ZNYyGzcMhLQMRqU+ux19TQw==
   dependencies:
     lodash.get "^4.4.2"
     qs "^6.5.2"
